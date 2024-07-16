@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgb(255, 128, 43);
+    overflow: hidden;
+}
+.navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none;
+    font-size: 16pt;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.collum {
+    float: left;
+    width: 45%;
+    padding: 30px;
+}
+.collum h2 {
+    font-size: 30pt;
+}
+.row:after {
+    content: "";
+    display: inline;
+    clear: both;
+    text-align: center;
+}
+.btn {
+    background-color: rgb(255, 128, 43);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+.btn:hover {
+    background-color: rgb(255, 170, 113);
+  }
